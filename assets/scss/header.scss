@@ -1,0 +1,17 @@
+@import "variables";
+
+header{
+    position: relative;
+    height: 5rem;
+    width: 100%;
+    background-color: $cor-principal;
+
+    h1{
+        position: absolute;
+        top: 25%;
+        right: 25%;
+        font-size: 2rem;
+        transform: translate(-25%,-25%);
+
+    }
+}
